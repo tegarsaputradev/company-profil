@@ -1,0 +1,20 @@
+@import url("../../css/variable.css");
+.nav-container {
+  .dropdown-item {
+    &:hover {
+      background-color: var(--main);
+    }
+  }
+  .tombol {
+    background-color: var(--main);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px 10px;
+    margin-left: 12px;
+    &:hover {
+      background-color: var(--main);
+      color: white;
+    }
+  }
+}

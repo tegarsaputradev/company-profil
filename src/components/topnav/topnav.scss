@@ -1,0 +1,15 @@
+.topnav {
+  color: white;
+  padding: 14px 0;
+  .contact,
+  .open {
+    font-size: 14px;
+  }
+  .icon {
+    font-weight: 500;
+    font-size: 18px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

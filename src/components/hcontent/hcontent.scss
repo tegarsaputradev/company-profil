@@ -1,0 +1,74 @@
+.hcontent {
+  color: white;
+  display: flex;
+  margin: auto;
+  .welcome {
+    font-size: 1.5rem;
+    .company {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: var(--main);
+    }
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      font-size: 1.2rem;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .icon {
+        color: rgb(28, 174, 28);
+      }
+    }
+  }
+  .tombol-kembar {
+    display: flex;
+    gap: 15px;
+    a {
+      text-decoration: none;
+      .satu {
+        margin-top: 20px;
+        background-color: var(--main);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      .dua {
+        background-color: transparent;
+        margin-top: 20px;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        outline: 2px solid var(--main);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        .arrow {
+          font-size: 16px;
+        }
+        &:hover {
+          background-color: var(--main);
+          opacity: 0.8;
+          outline: none;
+        }
+      }
+    }
+  }
+}
